@@ -29,7 +29,7 @@ This example uses a pod with single container (nginx).
     ```bash
     $ kubectl apply -f basic-pod1.yaml
     # verify the pod status (using label filter)
-    $ kubectl get pods -l web1
+    $ kubectl get pods -l name=web1
     ```
 3.  Clean-up, delete the recently created pod
 
